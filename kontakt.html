@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>KP PLC</title>
+	<meta name="description" content="Blog o programowalnym sterowniku logicznym PLC">
+	<meta name="keywords" content="programowanie, PLC, sterownik, safety">
+	<meta name="author" content="Kamil Pietraszko">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="img/grzybek.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+
+	<header>
+	
+		<nav class="navbar navbar-dark bg-nav navbar-expand-lg">
+		
+			<a class="navbar-brand" href="index.html">
+				<i class="icon-connectdevelop"></i>
+			KP PLC 
+			</a>
+		
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		
+			<div class="collapse navbar-collapse" id="mainmenu">
+			
+				<ul class="navbar-nav mr-auto">
+				
+					<li class="nav-item">
+						<a class="nav-link" href="index.html"> Start </a>
+					</li>
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> Siemens </a>
+						
+						<div class="dropdown-menu" aria-labelledby="submenu">
+						
+							<a class="dropdown-item" href="safety.html"> TIA Portal Safety </a>
+							
+							<div class="dropdown-divider"></div>
+							
+							<a class="dropdown-item" href="ET200SP.html"> ET200SP z modułami safety </a>
+							
+							<div class="dropdown-divider"></div>
+							
+							<a class="dropdown-item" href="zawor.html"> Zawór powietrza </a>
+							
+							<div class="dropdown-divider"></div>
+							
+							<a class="dropdown-item" href="grzyb.html"> Wyłącznik awaryjny </a>
+							
+							<div class="dropdown-divider"></div>
+							
+							<a class="dropdown-item" href="drzwi.html"> Drzwi bezpieczeństwa </a>
+							
+							<div class="dropdown-divider"></div>
+							
+							<a class="dropdown-item" href="skaner.html"> Skaner bezpieczeństwa </a>
+							
+							<div class="dropdown-divider"></div>
+							
+							<a class="dropdown-item" href="schemat.html"> Schemat </a>
+						
+						</div>
+						
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#"> O nas </a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="pomoc.html"> Pomoc </a>
+					</li>
+					
+					<li class="nav-item active">
+						<a class="nav-link" href="#"> Kontakt </a>
+					</li>
+				
+				</ul>
+				
+				<ul class="list-inline mr-3 my-auto">
+						<li class="list-inline-item ">
+							<a class="fb" href="https://pl-pl.facebook.com/" target="_blank">
+								<i class="icon-facebook"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a class="yt" href="https://www.youtube.com/" target="_blank">
+								<i class="icon-youtube"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a class="tw" href="https://twitter.com/" target="_blank">
+								<i class="icon-twitter"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a class="in" href="https://pl.linkedin.com/" target="_blank">
+								<i class="icon-linkedin"></i>
+							</a>
+						</li>
+				</ul>
+
+				<form class="form-inline">
+				
+					<input class="form-control mr-1" type="search" placeholder="Wyszukaj" aria-label="Wyszukaj">
+					<button class="btn btn-light" type="submit">Znajdź</button>
+				
+				</form>
+			
+			</div>
+		
+		</nav>
+	
+	</header>
+	
+	<main>
+		
+		<article>
+		
+			<div class="container">
+			
+				<div class="row">
+
+					<aside class="row col-12 advertisement mt-3">
+					
+						<div class="col-sm-2">
+					
+							<div class="photo1">
+								<a href="https://new.siemens.com/pl/pl.html" target="_blank"><img src="img/siemens.png" alt="Siemens"></a>
+							</div>
+							
+						</div>
+						
+						<div class="col-sm-2 d-none d-sm-block">
+					
+							<div class="photo2">
+								<a href="https://www.balluff.com/" target="_blank"><img src="img/balluff.png" alt="Balluff"></a>
+							</div>
+						
+						</div>
+						
+						<div class="col-sm-2 d-none d-sm-block">
+					
+							<div class="photo3">
+								<a href="https://www.astor.com.pl/" target="_blank"><img src="img/astor.png" alt="Astor"></a>
+							</div>
+						
+						</div>
+						
+						<div class="col-sm-2 d-none d-sm-block">
+					
+							<div class="photo4">
+								<a href="https://www.relpol.pl/" target="_blank"><img src="img/relpol.png" alt="Relpol"></a>
+							</div>
+						
+						</div>
+						
+						<div class="col-sm-2 d-none d-sm-block">
+					
+							<div class="photo5">
+								<a href="https://www.elmark.com.pl/" target="_blank"><img src="img/elmark.png" alt="Elmark"></a>
+							</div>
+						
+						</div>
+						
+						<div class="col-sm-2 d-none d-sm-block">
+					
+							<div class="photo6">
+								<a href="https://www.rittal.com/pl-pl/" target="_blank"><img src="img/rittal.png" alt="Rittal"></a>
+							<</div>
+						
+						</div>
+									
+					</aside>
+
+					<div class="col-lg-12 bg-white text-body p-4 wpis">
+					
+						<img class="img-fluid mb-3" src="img/simatic-s7-1500-plc.jpg" alt="s7-1500">
+						
+						<div class="row">
+						
+							<div class="col-sm-4">				
+							
+								<header>
+								
+									<h1 class="h3 font-weight-bold ml-0 mb-4 text-center text-md-left">
+									<i class="icon-commenting-o"></i>
+									Kontakt</h1>
+									
+								</header>				
+
+								<p class="text-muted">Sprawy dotyczące współpracy, organizacji eventów i konkursów oraz sprawy związane z reklamą i marketingiem prosimy kierować na email:</p>
+								
+								<p class="text-muted">kontakt@kpplc.pl</p>
+
+							</div>
+							
+							<div class="col-sm-4">				
+							
+								<header>
+								
+									<h1 class="h3 font-weight-bold ml-0 mb-4 text-center text-md-left">
+									<i class="icon-wpforms"></i>
+									Zakupy</h1>
+									
+								</header>				
+
+								<p class="text-muted">Zapytania ofertowe o produkty automatyki i elektryki prosimy kierować na email:</p>
+								
+								<p class="text-muted">zakupy@kpplc.pl</p>
+
+							</div>
+							
+							<div class="col-sm-4">				
+							
+								<header>
+								
+									<h1 class="h3 font-weight-bold ml-0 mb-4 text-center text-md-left">
+									<i class="icon-address-card-o"></i>
+									Biuro</h1>
+									
+								</header>				
+
+								<p class="text-muted">Sprawy dotyczące płatności i faktur oraz sprawy związane z sekretariatem i pracą prosimy kierować na email:</p>
+								
+								<p class="text-muted">biuro@kpplc.pl</p>
+
+							</div>
+						
+						</div>
+
+				</div>
+			
+			</div>
+		
+		</article>
+		
+	</main>
+	
+	<footer class="col-12 bg-footer text-center p-3">
+			Kamil Pietraszko &copy; 2019 Dziękuję za wizytę! Wszelkie prawa zastrzeżone
+	</footer>
+	
+	<script src="jquery-1.11.3.min.js"></script>
+	
+	<script>
+
+		$(document).ready(function() {
+		var NavY = $('.navbar').offset().top;
+		 
+		var stickyNav = function(){
+		var ScrollY = $(window).scrollTop();
+			  
+		if (ScrollY > NavY) { 
+			$('.navbar').addClass('sticky');
+		} else {
+			$('.navbar').removeClass('sticky'); 
+		}
+		};
+		 
+		stickyNav();
+		 
+		$(window).scroll(function() {
+			stickyNav();
+		});
+		});
+		
+	</script>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	
+	<script src="js/bootstrap.min.js"></script>
+	
+</body>
+</html>
