@@ -58,7 +58,7 @@
 .icon-down-dir:before { content: '\25be'; font-size: 16px;} /* '▾' */
 .icon-mail:before { content: '\2709'; font-size: 40px;} /* '✉' */
 .icon-phone:before { content: '\e065'; font-size: 40px;} /* '' */
-.icon-linkedin:before { content: '\e081'; font-size: 30px;} /* '' */
+.icon-linkedin:before { content: '\e081';} /* '' */
 .icon-location:before { content: '\f031'; font-size: 40px;} /* '' */
 .icon-instagram:before { content: '\f16d'; font-size: 30px;} /* '' */
 .icon-facebook-squared:before { content: '\f308'; font-size: 30px;} /* '' */
