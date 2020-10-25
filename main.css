@@ -2,8 +2,11 @@ body
 {
 	background-color: #ffffff;
 	color: #efefef;
-    font-family: 'Open Sans', sans-serif;
+   /* font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Audiowide', cursive;
+	/*font-family: 'Big Shoulders Display', cursive;*/
     font-size: 17px;
+	/*letter-spacing: 2px;*/
 }
 
 .navbar
@@ -161,6 +164,8 @@ body
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
+	margin-bottom: 40%;
+	text-shadow: 2px 3px 4px #000000;
 }
 
 .photoProject
