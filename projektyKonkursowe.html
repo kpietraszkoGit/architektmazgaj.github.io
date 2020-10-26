@@ -22,6 +22,10 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<![endif]-->
 	
+	<!--gallery-->
+	<link href="cssGallery/lightbox.css" rel="stylesheet" />
+	<!--koniec gallery-->
+	
 </head>
 
 <body>
@@ -47,13 +51,13 @@
 						<a class="nav-link" href="index.html">STRONA GŁÓWNA</a>
 					</li>
 					
-					<li class="nav-item">
+					<!--<li class="nav-item">
 						<a class="nav-link" href="#me">O MNIE</a>
 					</li>
 					
 					<li class="nav-item">
 						<a class="nav-link" href="#portfolio">PORTFOLIO</a>
-					</li>
+					</li>-->
 					<!--<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#portfolio" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true">PORTFOLIO</a>
 						
@@ -98,6 +102,7 @@
 			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
 		  </ol>
 		  <div class="carousel-inner">
 			<div class="carousel-item active">
@@ -110,10 +115,13 @@
 			  <img class="d-block w-100" src="img/img3.jpg" alt="Third slide">
 			</div>
 			<div class="carousel-item">
-			  <img class="d-block w-100" src="img/img6.jpg" alt="Third slide">
+			  <img class="d-block w-100" src="img/img4.jpg" alt="Third slide">
 			</div>
 			<div class="carousel-item">
 			  <img class="d-block w-100" src="img/img5.jpg" alt="Third slide">
+			</div>
+			<div class="carousel-item">
+			  <img class="d-block w-100" src="img/img6.jpg" alt="Third slide">
 			</div>
 		  </div>
 		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -157,9 +165,11 @@
 							</div>
 							
 						</aside>
-						
+					
 						<div class="col-md-5 projectPhoto">
-							<img class="img-fluid" src="img/radek.jpg" alt="Radek">
+							<a href="images/project1/img1.jpg" data-lightbox="roadtrip1"><img class="img-fluid" src="img/radek.jpg" alt="Radek"></a>
+							<a href="images/project1/img2.jpg" data-lightbox="roadtrip1"></a>
+							<a href="images/project1/img3.jpg" data-lightbox="roadtrip1"></a>
 						</div>
 						
 					</div>
@@ -188,7 +198,9 @@
 						</aside>
 						
 						<div class="col-md-5 projectPhoto">
-							<img class="img-fluid" src="img/radek.jpg" alt="Radek">
+							<a href="images/project2/img1.jpg" data-lightbox="roadtrip2"><img class="img-fluid" src="img/radek.jpg" alt="Radek"></a>
+							<a href="images/project2/img2.jpg" data-lightbox="roadtrip2"></a>
+							<a href="images/project2/img3.jpg" data-lightbox="roadtrip2"></a>
 						</div>
 						
 					</div>
@@ -201,34 +213,34 @@
 			<!--kontakt-->
 			<article class="row bg-white">
 			
-				<div class="col-md-12 contact" id="contact">KONTAKT</div>
-				
-				<div class="col-md-4">
-			
-						<div class="project">
-							<div class="project3"><i class="icon-location"></i></div>
-							<div class="project3">Sanok ul. Nie mam pojecia 666</div>									
+						<div class="col-md-12 contact" id="contact">KONTAKT</div>
+						
+						<div class="col-md-4">
+					
+								<div class="contactBox">
+									<div class="contactIcon"><i class="icon-location"></i></div>
+									<div class="contactText"><a href="https://www.google.pl/maps/place/P%C3%B3%C5%82kole+7,+31-559+Krak%C3%B3w/@50.0610572,19.979535,17z/data=!3m1!4b1!4m5!3m4!1s0x47165b2da618a3e5:0xcf7ba408b017b4cc!8m2!3d50.0610538!4d19.9817237">Sanok ul. Sanocka 666</a></div>									
+								</div>
+						
 						</div>
-				
-				</div>
-				
-				<div class="col-md-4">
-			
-						<div class="project">
-							<div class="project3"><i class="icon-mail"></i></div>
-							<div class="project3">radzio@hot.pl</div>									
+						
+						<div class="col-md-4">
+					
+								<div class="contactBox">
+									<div class="contactIcon"><i class="icon-mail"></i></div>
+									<div class="contactText"><a href="mailto:radzio@hot.pl">radzio@hot.pl</a></div>									
+								</div>
+						
 						</div>
-				
-				</div>
-				
-				<div class="col-md-4">
-			
-						<div class="project">
-							<div class="project3"><i class="icon-phone"></i></div>
-							<div class="project3">+48 23232323</div>									
+						
+						<div class="col-md-4">
+					
+								<div class="contactBox">
+									<div class="contactIcon"><i class="icon-phone"></i></div>
+									<div class="contactText"><a href="tel:+123456890">+48 934567890</a></div>									
+								</div>
+						
 						</div>
-				
-				</div>
 				
 				<!--<div class="col-md-3">
 			
@@ -265,7 +277,14 @@
 	<footer class="col-12 bg-footer text-center p-3">
 			&copy; Kamil Pietraszko 2020 <a href="https://github.com/kpietraszkoGit">Github</a>
 	</footer>
-	
+	<!--galeria-->
+	<script src="jsGallery/lightbox-plus-jquery.js"></script>
+	<script>
+		lightbox.option({
+		  'albumLabel': "Zdjęcie %1 z %2"
+		})
+	</script>
+	<!--koniec galeria-->
 	<script src="jquery-1.11.3.min.js"></script>
 	
 	<script>
