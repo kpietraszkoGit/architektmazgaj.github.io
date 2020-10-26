@@ -9,6 +9,11 @@ body
 	/*letter-spacing: 2px;*/
 }
 
+html 
+{
+    scroll-behavior: smooth;
+}
+
 .navbar
 {
 	min-height: 57px;
@@ -34,7 +39,7 @@ body
 .photo
 {
 	margin-bottom: 10px;
-	margin-top: -20px;
+	margin-top: 10px;
 }
 
 .photoFeatures
@@ -212,9 +217,48 @@ body
 	padding: 40px;
 }
 
+.contactIcon
+{
+	color: #434859;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.contactText
+{
+	color: #434859;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.contactText a
+{
+	color: #434859;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.contactBox
+{
+	margin-bottom: 60px;
+	border: 1px solid #b8babf;
+	background-color: #efefef;
+	padding: 40px 0;
+	transition: transform 0.5s ease-in-out;
+}
+
+.contactBox:hover
+{
+	-webkit-transform: scale(1.04);
+	-ms-transform: scale(1.04);
+	transform: scale(1.04);
+}
+
 .projectCompetitions
 {
-	/*background-color: blue;*/
 	text-align: left;
 	padding: 40px 0px 20px 40px;
 }
@@ -249,10 +293,6 @@ body
 	padding: 16px;
 }
 
-html 
-{
-    scroll-behavior: smooth;
-}
 
 /*.fb i
 {
