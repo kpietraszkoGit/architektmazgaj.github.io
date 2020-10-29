@@ -82,8 +82,8 @@ html
 	-webkit-box-shadow: inset 0px 0px 8px 2px rgba(0,0,0,0.64);
 	-moz-box-shadow: inset 0px 0px 8px 2px rgba(0,0,0,0.64);
 	box-shadow: inset 0px 0px 8px 2px rgba(0,0,0,0.64);	
-	width: 200px;
 	margin: 30px 10px 1px 10px;
+	width: 100%;
 }
 
 .sticky
