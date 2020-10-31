@@ -1,9 +1,14 @@
+@charset "UTF-8";
 
+ 
+.icon-home:before { content: '\2302'; } /* '⌂' */
 .icon-down-dir:before { content: '\25be'; } /* '▾' */
 .icon-mail:before { content: '\2709'; } /* '✉' */
+.icon-edit:before { content: '\e062'; } /* '' */
 .icon-phone:before { content: '\e065'; } /* '' */
 .icon-linkedin:before { content: '\e081'; } /* '' */
 .icon-location:before { content: '\f031'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-facebook-squared:before { content: '\f308'; } /* '' */
 .icon-linkedin-rect:before { content: '\f31b'; } /* '' */
+.icon-calendar:before { content: '📅'; } /* '\1f4c5' */
