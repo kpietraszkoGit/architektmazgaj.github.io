@@ -327,6 +327,33 @@ html
 	margin-left: 15px;
 }
 
+@media only screen and (max-width: 700px) 
+{
+  .aboutMeText
+  {
+	margin: 0px 60px 10px 60px;/*gora,prawo, dol, lewo*/
+	color: #434859;
+	font-size: 16px;
+	text-align: center;
+   }
+  
+  .project
+  {
+	border: 1px solid #b8babf;
+	position: relative;
+	margin-bottom: 30px;
+  }
+  
+  .contact
+  {
+	margin-top: 40px;
+  }
+  
+  .projectName
+  {
+	font-size: 40px;
+  } 
+}
 
 /*.fb i
 {
