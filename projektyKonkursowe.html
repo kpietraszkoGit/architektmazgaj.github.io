@@ -8,24 +8,20 @@
 	<title>inż. arch. Radosław Mazgaj</title>
 	<meta name="description" content="Strona o projektach architektonicznych">
 	<meta name="keywords" content="architekt, budownictwo, Mazgaj, pk, architektura, projekty, urbanistyka">
-	<meta name="author" content="Radosław Mazgaj">
+	<meta name="author" content="Kamil Pietraszko">
 	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
 	
 	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="img/motel.png">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
 	<link rel="stylesheet" href="main.css">
-	<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">-->
+	<link href="cssGallery/lightbox.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 	
 	<!--[if lt IE 9]>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<![endif]-->
-	
-	<!--gallery-->
-	<link href="cssGallery/lightbox.css" rel="stylesheet" />
-	<!--koniec gallery-->
-	
+
 </head>
 
 <body>
@@ -33,60 +29,21 @@
 	<header>
 	
 		<nav class="navbar navbar-dark bg-nav navbar-expand-lg">
-		
-			<!--<a class="navbar-brand" href="index.html">
-				<i class="icon-connectdevelop"></i>
-			Architekt
-			</a>-->
-		
+
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 		
 			<div class="collapse navbar-collapse" id="mainmenu">
-				<div>PROJEKTY KONKURSOWE</div>
+				<span>PROJEKTY KONKURSOWE</span>
 				<ul class="navbar-nav ml-auto">
-
 					<li class="nav-item active">
 						<a class="nav-link" href="index.html">STRONA GŁÓWNA</a>
-					</li>
-					
-					<!--<li class="nav-item">
-						<a class="nav-link" href="#me">O MNIE</a>
-					</li>
-					
-					<li class="nav-item">
-						<a class="nav-link" href="#portfolio">PORTFOLIO</a>
-					</li>-->
-					<!--<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#portfolio" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true">PORTFOLIO</a>
-						
-						<div class="dropdown-menu" aria-labelledby="submenu">
-						
-							<a class="dropdown-item" href="safety.html">KONKURSY</a>
-							
-							<div class="dropdown-divider"></div>
-							
-							<a class="dropdown-item" href="ET200SP.html">ZAWODOWE</a>
-							
-							<div class="dropdown-divider"></div>
-							
-							<a class="dropdown-item" href="zawor.html">UCZELNIA</a>
-							
-							<div class="dropdown-divider"></div>
-							
-							<a class="dropdown-item" href="grzyb.html">REALIZACJE</a>
-						
-						</div>
-						
-					</li>-->
-					
+					</li>									
 					<li class="nav-item">
 						<a class="nav-link" href="#contact"> KONTAKT </a>
-					</li>
-				
-				</ul>
-			
+					</li>				
+				</ul>		
 			</div>
 		
 		</nav>
@@ -95,7 +52,7 @@
 	
 	<main>
 	
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		  <ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -132,21 +89,20 @@
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		  </a>
-		</div>
+		</section>
 		
 		
-		<div class="container col-12">
+		<section class="container col-12">
 			
 			<article class="bg-white"> <!--row tutaj to będzie szare na całym-->
 			
-				<div class="projectName" id="me">PROJEKTY KONKURSOWE</div>
+				<h1 class="projectName" id="me">PROJEKTY KONKURSOWE</h1>
 				
 				<div class="col-md-12 projects">
 					
 					<div class="row myProjects">
 						
 						<aside class="col-md-7 projectCompetitions">
-							
 							<h3 class="projectTitle">STRASZNY DWÓR</h3>
 							<p class="projectDescritpion"> Termin realizacji juz się skończył. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation..Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 							<div class="projectDetails">
@@ -162,11 +118,10 @@
 								<div>
 									<i class="icon-edit detailIcon"><span class="projectLine">AutoCad</span></i>
 								</div>
-							</div>
-							
+							</div>		
 						</aside>
 					
-						<div class="col-md-5 projectPhoto">
+						<aside class="col-md-5 projectPhoto">
 							<a href="images/project1/img1.jpg" data-lightbox="roadtrip1">
 								<img class="img-fluid" src="img/gallery.jpg" alt="Galeria1">
 								<div class="boxText2">
@@ -175,14 +130,13 @@
 							</a>
 							<a href="images/project1/img2.jpg" data-lightbox="roadtrip1"></a>
 							<a href="images/project1/img3.jpg" data-lightbox="roadtrip1"></a>
-						</div>
+						</aside>
 						
 					</div>
 					
 					<div class="row myProjects">
 						
-						<aside class="col-md-7 projectCompetitions">
-							
+						<aside class="col-md-7 projectCompetitions">			
 							<h3 class="projectTitle">BUDYNEK NOWOCZESNY</h3>
 							<p class="projectDescritpion"> Termin realizacji juz się skończył. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation..Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 							<div class="projectDetails">
@@ -198,11 +152,10 @@
 								<div>
 									<i class="icon-edit detailIcon"><span class="projectLine">AutoCad</span></i>
 								</div>
-							</div>
-							
+							</div>							
 						</aside>
 						
-						<div class="col-md-5 projectPhoto">
+						<aside class="col-md-5 projectPhoto">
 							<a href="images/project2/img1.jpg" data-lightbox="roadtrip2">
 								<img class="img-fluid" src="img/gallery2.jpg" alt="Galeria2">
 								<div class="boxText2">
@@ -211,7 +164,7 @@
 							</a>
 							<a href="images/project2/img2.jpg" data-lightbox="roadtrip2"></a>
 							<a href="images/project2/img3.jpg" data-lightbox="roadtrip2"></a>
-						</div>
+						</aside>
 						
 					</div>
 				
@@ -219,112 +172,52 @@
 	
 			</article>
 			
-			
-			<!--kontakt-->
 			<article class="row bg-white contactBigBox">
 			
-						<div class="col-md-12 contactProject" id="contact">KONTAKT</div>
-						
-						<div class="col-md-4">
-					
-								<div class="contactBox">
-									<div class="contactIcon"><i class="icon-location"></i></div>
-									<div class="contactText"><a href="https://www.google.pl/maps/place/P%C3%B3%C5%82kole+7,+31-559+Krak%C3%B3w/@50.0610572,19.979535,17z/data=!3m1!4b1!4m5!3m4!1s0x47165b2da618a3e5:0xcf7ba408b017b4cc!8m2!3d50.0610538!4d19.9817237">Sanok ul. Sanocka 6</a></div>									
-								</div>
-						
-						</div>
-						
-						<div class="col-md-4">
-					
-								<div class="contactBox">
-									<div class="contactIcon"><i class="icon-mail"></i></div>
-									<div class="contactText"><a href="mailto:radek.mazgaj@interia.eu">radek.mazgaj@interia.eu</a></div>									
-								</div>
-						
-						</div>
-						
-						<div class="col-md-4">
-					
-								<div class="contactBox">
-									<div class="contactIcon"><i class="icon-phone"></i></div>
-									<div class="contactText"><a href="tel:+48 881635530">+48 881635530</a></div>									
-								</div>
-						
-						</div>
+				<h1 class="col-lg-12 contactProject" id="contact">KONTAKT</h1>
 				
-				<!--<div class="col-md-3">
-			
-					<div class="project">
-					<div class="project4">
-						<ul class="list-inline mr-3 my-auto">
-							<li class="list-inline-item ">
-								<a class="fb" href="https://pl-pl.facebook.com/" target="_blank">
-									<i class="icon-facebook-squared"></i>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a class="inst" href="https://pl.linkedin.com/" target="_blank">
-									<i class="icon-instagram"></i>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a class="in" href="https://pl.linkedin.com/" target="_blank">
-									<i class="icon-linkedin-rect"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-					</div>
+				<aside class="col-lg-4">					
+					<div class="contactBox">
+						<div class="contactIcon"><i class="icon-location"></i></div>
+						<div class="contactText"><a href="https://www.google.pl/maps/place/P%C3%B3%C5%82kole+7,+31-559+Krak%C3%B3w/@50.0610572,19.979535,17z/data=!3m1!4b1!4m5!3m4!1s0x47165b2da618a3e5:0xcf7ba408b017b4cc!8m2!3d50.0610538!4d19.9817237">Sanok ul. Sanocka 6</a></div>									
+					</div>						
+				</aside>
 				
-				</div>-->
+				<aside class="col-lg-4">					
+					<div class="contactBox">
+						<div class="contactIcon"><i class="icon-mail"></i></div>
+						<div class="contactText"><a href="mailto:radek.mazgaj@interia.eu">radek.mazgaj@interia.eu</a></div>									
+					</div>						
+				</aside>
+				
+				<aside class="col-lg-4">					
+					<div class="contactBox">
+						<div class="contactIcon"><i class="icon-phone"></i></div>
+						<div class="contactText"><a href="tel:+48 881635530">+48 881635530</a></div>							
+					</div>						
+				</aside>
 							
 			</article>
 			
-		</div>
+		</section>
 		
 	</main>
 	
 	<footer class="col-12 bg-footer text-center p-3">
-			&copy; Kamil Pietraszko 2020 <a href="https://github.com/kpietraszkoGit">Github</a>
+			&copy; Kamil Pietraszko 2020 <a href="https://github.com/kpietraszkoGit">GitHub</a>
 	</footer>
-	<!--galeria-->
+
 	<script src="jsGallery/lightbox-plus-jquery.js"></script>
+	
 	<script>
 		lightbox.option({
 		  'albumLabel': "Zdjęcie %1 z %2"
 		})
 	</script>
-	<!--koniec galeria-->
-	<script src="jquery-1.11.3.min.js"></script>
+
+	<script src="jquery-1.11.3.min.js"></script>	
 	
-	<script>
-
-		$(document).ready(function() {
-		var NavY = $('.navbar').offset().top;
-		 
-		var stickyNav = function(){
-		var ScrollY = $(window).scrollTop();
-			  
-		if (ScrollY > NavY) { 
-			$('.navbar').addClass('sticky');
-		} else {
-			$('.navbar').removeClass('sticky'); 
-		}
-		};
-		 
-		stickyNav();
-		 
-		$(window).scroll(function() {
-			stickyNav();
-		});
-		});
-
-
-		$(function () {
-		  $('[data-toggle="popover"]').popover()
-		})		
-		
-	</script>
+	<script src="js/functions.js"></script>
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	
