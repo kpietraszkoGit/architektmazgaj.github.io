@@ -1,6 +1,6 @@
 ================================================================================
 
-It is a website containing information about Eng. Radosław Mazgaj and presenting his architectural projects
+It is a website containing information about Eng. Radosław Mazgaj and presenting his architectural projects.
 
 ================================================================================
 
